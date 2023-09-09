@@ -3,10 +3,8 @@ from langchain.document_loaders import UnstructuredFileLoader, WebBaseLoader
 from langchain.vectorstores import Chroma, FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
-# from langchain.prompts import 
-# from langchain.llm import OpenAI
-from langchain.chains import RetrievalQA, ConversationalRetrievalChain
-from langchain.text_splitter import RecursiveCharacterTextSplitter, CharacterTextSplitter
+from langchain.chains import ConversationalRetrievalChain
+from langchain.text_splitter import  CharacterTextSplitter
 import os
 from constant import *
 
