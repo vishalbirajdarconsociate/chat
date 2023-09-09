@@ -1,0 +1,9 @@
+openai
+langchain
+unstructured
+tiktoken
+faiss-cpu
+pypdf
+bs4
+
+
